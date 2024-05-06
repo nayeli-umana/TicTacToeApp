@@ -1,0 +1,19 @@
+/* Styling for individual square button */
+.square {
+    font-size: 36px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.square:hover {
+    background-color: #ddd;
+}
+  

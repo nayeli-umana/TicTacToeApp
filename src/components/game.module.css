@@ -1,0 +1,43 @@
+/* Styling for the overall game container */
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+} 
+
+/* Styling for the game status message */  
+.status {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+} 
+
+/* Styling for the win message displayed when there's a winner */
+.winMessage {
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 8px;
+  animation: bounceIn 0.5s ease;
+}
+
+/* Keyframes animation for bounceIn effect */
+@keyframes bounceIn {
+  /* Keyframe at 0% (initial state) */
+  0% {
+    transform: scale(0); 
+    opacity: 0; /* Hide element (fully transparent) */
+  }
+  /* Keyframe at 50% (midway state) */
+  50% {
+    transform: scale(1.1);
+  }
+   /* Keyframe at 100% (final state) */
+  100% {
+    transform: scale(1);
+    opacity: 1; /* Show element */
+  }
+}
